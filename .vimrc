@@ -34,7 +34,6 @@ augroup filetype_html
     autocmd FileType html :set tabstop=2
     autocmd FileType html :set softtabstop=2
     autocmd FileType html :set shiftwidth=2
-    "autocmd FileType html i<!DOCYPE html><cr>
 augroup end
 
 augroup filetype_css
@@ -42,4 +41,11 @@ augroup filetype_css
     autocmd FileType css :set tabstop=2
     autocmd FileType css :set softtabstop=2
     autocmd FileType css :set shiftwidth=2
+augroup end
+
+augroup filetype_js
+    autocmd!
+    autocmd FileType javascript :set tabstop=2
+    autocmd FileType javascript :set softtabstop=2
+    autocmd Filetype javascript :set shiftwidth=2
 augroup end
